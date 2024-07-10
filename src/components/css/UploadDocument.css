@@ -1,0 +1,62 @@
+
+
+.upload-btn{
+
+  padding: 5px 10px;
+  background-color: #7B63AB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+/* UploadDocument.css */
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Adjust height as needed */
+  width: 100vw; /* Full viewport width */
+  padding: 10px;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.upload-card {
+  max-width: 600px;
+  width: 100%; /* Ensure the card takes the full width up to max-width */
+}
+
+.card-header {
+  background-color: #7B63AB;
+  color: white;
+}
+
+.alert-info {
+  margin-top: 10px;
+}
+
+.chat-link-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.chat-link-button {
+  padding: 5px 10px;
+  background-color: #7B63AB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-link-button:hover {
+  background-color: #6b4aae;
+}

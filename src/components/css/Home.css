@@ -1,0 +1,240 @@
+.background-image {
+    /* Set up the background image */
+    height: 100vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    position: relative; /* Relative positioning for overlay */
+    background-color:  #121139; /* Semi-transparent overlay */
+  }
+
+  .nav-home{
+    background-color: #121139 !important;
+  }
+
+ 
+  .chat-btn{
+      padding: 5px 10px;
+      background-color: #121139;
+      color: white;
+      font-weight: 500;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-right: 40px;
+      padding: 10px;
+      font-size: large;
+  }
+  
+  .overlay {
+    /* Overlay styling */
+    height: 100%;
+    width: 100%;
+   color: white; /* Text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  h1 {
+    position: absolute; /* Position h1 absolutely within .overlay */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    margin-left: 7rem;
+    margin-top: 5rem;
+    font-size: 6rem !important;
+    color: white; /* Text color */
+    font-size: 2.5em; /* Adjust size as needed */
+    font-weight: bold; /* Adjust weight as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Soft shadow for a 'soft' appearance */
+
+  }
+  
+
+
+  
+  .custom-card-ul {
+    border-top-left-radius: 25px; /* Rounded top-left corner */
+    border-top-right-radius: 25px; /* Rounded top-right corner */
+    border-bottom-right-radius: 0px; /* Rounded bottom-right corner */
+    border-bottom-left-radius: 25px; /* Pointed bottom-left corner */
+    /* Add other styles such as box-shadow, transition, etc., as previously described */
+    height: 250px;
+    background-color: #F0EEFC;
+  }
+  .custom-card-ur {
+    border-top-left-radius: 25px; /* Rounded top-left corner */
+    border-top-right-radius: 25px; /* Rounded top-right corner */
+    border-bottom-right-radius: 25px; /* Rounded bottom-right corner */
+    border-bottom-left-radius: 0px; /* Pointed bottom-left corner */
+    /* Add other styles such as box-shadow, transition, etc., as previously described */
+    height: 250px;
+    background-color: #F0EEFC;
+  }
+  .custom-card-bl {
+    background-color: #F0EEFC;
+    border-top-left-radius: 25px; /* Rounded top-left corner */
+    border-top-right-radius: 0px; /* Rounded top-right corner */
+    border-bottom-right-radius: 25px; /* Rounded bottom-right corner */
+    border-bottom-left-radius: 25px; /* Pointed bottom-left corner */
+    /* Add other styles such as box-shadow, transition, etc., as previously described */
+    height: 250px;
+  }
+  .custom-card-br {
+    background-color: #F0EEFC;
+    border-top-left-radius: 0px; /* Rounded top-left corner */
+    border-top-right-radius: 25px; /* Rounded top-right corner */
+    border-bottom-right-radius: 25px; /* Rounded bottom-right corner */
+    border-bottom-left-radius: 25px; /* Pointed bottom-left corner */
+    /* Add other styles such as box-shadow, transition, etc., as previously described */
+    height: 250px;
+  }
+  
+
+
+
+  .custom-card-header {
+    background-color: #121139;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+  }
+  
+  .custom-card-body {
+    padding: 1rem;
+  }
+  
+  .custom-card-text {
+    color: #6c757d;
+  }
+  
+  .custom-card {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 1.25rem;
+  }
+
+
+
+  .targeted-industries-row {
+    background-color: #F0EEFC;
+    padding: 20px;
+    border-radius: 15px;
+    height: 500px;
+  }
+  
+  .targeted-industries-title {
+    color: #4a148c;
+    font-weight: bold;
+  }
+  
+  .targeted-industry-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .industry-img {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .targeted-industry-card h5 {
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .img-fluid {
+    max-width: 60%;
+    height: auto;
+  }
+  
+
+
+
+  .footer {
+    background-color: #121139;
+    padding: 20px 0;
+    color: white;
+    height: 300px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin-right: 15px;
+  }
+  
+  .social-icons li a {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .footer-link {
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+
+
+  .services-row {
+    background-color: #F0EEFC;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .services-title {
+    color: #4a148c;
+    font-weight: bold;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .service-icon {
+    font-size: 2.5rem;
+    color: #4a148c;
+  }
+  
+  .service-card h5 {
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .service-description {
+    color: #6c757d;
+    margin-top: 10px;
+  }
+  
+  
